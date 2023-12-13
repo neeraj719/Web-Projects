@@ -12,7 +12,7 @@ export default function Header() {
     ${darkMode ? "bg-black text-[#f0f0f0] border-b-[1px] border-b-gray-400" : "bg-white border-b-2 border-b-gray-300"}`}
     >
       <h1 className="font-bold text-3xl uppercase text-center flex-grow">
-        Codehelp Blogs
+         Blogs Duniya
       </h1>
       <button
         onClick={() => setDarkMode((prev) => !prev)}
